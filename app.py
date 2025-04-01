@@ -22,7 +22,7 @@ elif page == "Projects":
     # Example Project 2
     st.subheader("📌 Basic Chatbot using NLP")
     st.write("Built an NLP based chatbot to answer user questions. The application returns best matching answer from a pre-defined FAQ (Frequently Asked Questions) file.")
-    st.image("/home/lakshmi/Documents/Personal_Projects/Portfolio/projects/chatbot.png")
+    st.image("/home/lakshmi/Documents/Personal_Projects/Portfolio-using-streamlit/projects/chatbot.png")
     st.link_button("View on GitHub", "https://github.com/LakshmiRajan05/FAQ-Chatbot")
 
 # Contact Page
