@@ -11,7 +11,7 @@ page = st.sidebar.radio("Go to", ["Home", "Projects", "Contact"])
 if page == "Home":
     st.title("Welcome to My Portfolio")
     st.write("""
-    👋 Hi! I'm a Data Scientist with expertise in ML, NLP, and MLOps.
+    👋 Hi! I'm a Data Scientist with expertise in Machine Learning, Deep Learnig, Time Series Forecasting 
     Check out my projects below!
     """)
 
@@ -19,7 +19,14 @@ if page == "Home":
 elif page == "Projects":
     st.header("My Projects")
 
-    # Example Project 2
+    # Project 1
+    st.subheader("📌 Customer segmentation using Clustering")
+    st.write("Customer segmentation on a retail data using RFM Analysis. RFM (Recency, Frequency, Monetary) analysis is a popularly used technique in marketing to identify high-value customers based on the purchasing behaviour. Here we have used 3 clustering approaches; kmeans, hierarchical clustering and dbscan, and analyse which is effective for the given data")
+    st.image("images/kmeans.png")
+    st.image("images/hierarchical_clustering.png")
+    st.link_button("View on GitHub", "https://github.com/LakshmiRajan05/Customer-Segmentation-using-Clustering")
+
+    # Project 2
     st.subheader("📌 Basic Chatbot using NLP")
     st.write("Built an NLP based chatbot to answer user questions. The application returns best matching answer from a pre-defined FAQ (Frequently Asked Questions) file.")
     st.image("images/chatbot.png")
